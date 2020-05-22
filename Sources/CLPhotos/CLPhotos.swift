@@ -1,5 +1,5 @@
 public struct CLPhotos {
-    init() {
+    public init() {
         //
     }
     var text = "Hello, World!"
