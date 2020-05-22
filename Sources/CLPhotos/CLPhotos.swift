@@ -5,6 +5,8 @@ public struct CLPhotos {
     var text = "Hello, World!"
     
     public func getPhotos(_ completion: (String)->Void) {
-        completion("CLPhotos > take your photos")
+        let message = "CLPhotos > take your photos"
+        print("internal message: \(message)")
+        completion(message)
     }
 }
