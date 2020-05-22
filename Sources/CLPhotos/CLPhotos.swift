@@ -4,7 +4,7 @@ public struct CLPhotos {
     }
     var text = "Hello, World!"
     
-    public func getPhotos() {
-        print("take your photos")
+    public func getPhotos(_ completion: (String)->Void) {
+        completion("CLPhotos > take your photos")
     }
 }
