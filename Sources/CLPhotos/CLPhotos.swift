@@ -1,4 +1,7 @@
 public struct CLPhotos {
+    init() {
+        //
+    }
     var text = "Hello, World!"
     
     public func getPhotos() {
